@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/tea"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Login Now !"
+        android:textColor="#ffffff"
+        android:background="#f90000"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-smallcaps"
+        />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="@string/username"
+        android:textAlignment="center"
+        android:background="@null"
+        android:drawableLeft="@drawable/usericon"
+        android:layout_marginLeft="70px"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#000000"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:hint="@string/password"
+        android:drawableLeft="@drawable/passicon"
+        android:background="@null"
+        android:layout_marginLeft="70px"
+        android:textColor="#000000"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:inputType="textPassword"
+        />
+    <TextView
+        android:id="@+id/forgetpassword"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Forget Password ?"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginLeft="155dp"
+        />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/username"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="sans-serif-smallcaps"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="OR"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:layout_marginLeft="180dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            />
+    <Button
+        android:id="@+id/loginviaphone"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Login via phone"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/confirm_button"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="sans-serif-smallcaps"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/newaccount"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="300dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="New User ?"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="50dp"
+        />
+    <TextView
+        android:id="@+id/newaccount"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Sign up here"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="-27dp"
+        android:layout_marginLeft="165dp"
+        />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone" />
+</LinearLayout>
+</ScrollView>

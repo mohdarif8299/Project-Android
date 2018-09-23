@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="@drawable/tea"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/logo"
+    android:layout_marginLeft="80dp"
+    android:layout_marginTop="40dp"
+    />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enter verification code"
+    android:fontFamily="sans-serif-smallcaps"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:textColor="#000000"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="40dp"
+    />
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="enter verification code"
+        android:textColor="#ffffff"
+        android:backgroundTint="#ff0101"
+        android:fontFamily="sans-serif-smallcaps"
+        android:drawableLeft="@drawable/verification"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="30dp"
+        android:textAlignment="center"
+        />
+    <Button
+        android:id="@+id/codesignin"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/username"
+        android:text="Sign in"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        />
+</RelativeLayout>

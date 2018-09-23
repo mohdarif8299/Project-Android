@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ffffff"
+        >
+        <EditText
+            android:id="@+id/searchitem"
+            android:layout_width="290dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:hint="search for icecreams etc"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="15dp"
+            android:layout_alignParentTop="true"
+            />
+        <ImageView
+            android:id="@+id/searchbutton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/searchicon"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        >
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <RelativeLayout
+               android:layout_width="340dp"
+               android:layout_height="150dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="20dp"
+               android:background="@drawable/homepagemenuitems"
+               android:padding="15dp"
+               >
+               <ImageView
+                   android:layout_width="150dp"
+                   android:layout_height="130dp"
+                   android:background="@drawable/i1"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Vanilla Icecream"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:textColor="#000000"
+                   android:layout_marginLeft="190dp"
+                   android:layout_marginTop="20dp"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text=" @ Rs 50.00"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:textColor="#000000"
+                   android:layout_marginTop="50dp"
+                   android:layout_marginLeft="210dp"
+                   />
+               <Button
+                   android:id="@+id/ice1"
+                   android:layout_width="100dp"
+                   android:layout_height="40dp"
+                   android:background="@drawable/confirm_button"
+                   android:text="Buy now"
+                   android:textColor="#ffffff"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:layout_marginLeft="200dp"
+                   android:layout_marginTop="80dp"
+                   />
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="340dp"
+               android:layout_height="150dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="190dp"
+               android:background="@drawable/homepagemenuitems"
+               android:padding="15dp"
+               >
+               <ImageView
+                   android:layout_width="150dp"
+                   android:layout_height="130dp"
+                   android:background="@drawable/i2"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Cherry Icecream"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:textColor="#000000"
+                   android:layout_marginLeft="190dp"
+                   android:layout_marginTop="20dp"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text=" @ Rs 70.00"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:textColor="#000000"
+                   android:layout_marginTop="50dp"
+                   android:layout_marginLeft="210dp"
+                   />
+               <Button
+                   android:id="@+id/ice2"
+                   android:layout_width="100dp"
+                   android:layout_height="40dp"
+                   android:background="@drawable/confirm_button"
+                   android:text="Buy now"
+                   android:textColor="#ffffff"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:layout_marginLeft="200dp"
+                   android:layout_marginTop="80dp"
+                   />
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="340dp"
+               android:layout_height="150dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="360dp"
+               android:background="@drawable/homepagemenuitems"
+               android:padding="15dp"
+               >
+               <ImageView
+                   android:layout_width="150dp"
+                   android:layout_height="130dp"
+                   android:background="@drawable/i3"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Banana Icecream"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:textColor="#000000"
+                   android:layout_marginLeft="190dp"
+                   android:layout_marginTop="20dp"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text=" @ Rs 99.00"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:textColor="#000000"
+                   android:layout_marginTop="50dp"
+                   android:layout_marginLeft="210dp"
+                   />
+               <Button
+                   android:id="@+id/ice3"
+                   android:layout_width="100dp"
+                   android:layout_height="40dp"
+                   android:background="@drawable/confirm_button"
+                   android:text="Buy now"
+                   android:textColor="#ffffff"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:layout_marginLeft="200dp"
+                   android:layout_marginTop="80dp"
+                   />
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="340dp"
+               android:layout_height="150dp"
+               android:layout_marginTop="530dp"
+               android:layout_marginLeft="10dp"
+               android:background="@drawable/homepagemenuitems"
+               android:padding="15dp">
+
+               <ImageView
+                   android:layout_width="150dp"
+                   android:layout_height="130dp"
+                   android:background="@drawable/i4" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="190dp"
+                   android:layout_marginTop="20dp"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:text="Chocolate Cherry"
+                   android:textColor="#000000" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="210dp"
+                   android:layout_marginTop="50dp"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:text=" @ Rs 99.00"
+                   android:textColor="#000000" />
+
+               <Button
+                   android:id="@+id/ice4"
+                   android:layout_width="100dp"
+                   android:layout_height="40dp"
+                   android:layout_marginLeft="200dp"
+                   android:layout_marginTop="80dp"
+                   android:background="@drawable/confirm_button"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:text="Buy now"
+                   android:textColor="#ffffff" />
+           </RelativeLayout>
+
+           <RelativeLayout
+               android:layout_width="340dp"
+               android:layout_height="150dp"
+               android:layout_marginTop="700dp"
+               android:layout_marginLeft="10dp"
+               android:background="@drawable/homepagemenuitems"
+               android:padding="15dp">
+
+               <ImageView
+                   android:layout_width="150dp"
+                   android:layout_height="130dp"
+                   android:background="@drawable/i5" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="190dp"
+                   android:layout_marginTop="20dp"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:text="Butter Scotch"
+                   android:textColor="#000000" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="210dp"
+                   android:layout_marginTop="50dp"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:text=" @ Rs 109.00"
+                   android:textColor="#000000" />
+
+               <Button
+                   android:id="@+id/ice5"
+                   android:layout_width="100dp"
+                   android:layout_height="40dp"
+                   android:layout_marginLeft="200dp"
+                   android:layout_marginTop="80dp"
+                   android:background="@drawable/confirm_button"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:text="Buy now"
+                   android:textColor="#ffffff" />
+           </RelativeLayout>
+
+           <RelativeLayout
+               android:layout_width="340dp"
+               android:layout_height="150dp"
+               android:layout_marginTop="870dp"
+               android:layout_marginLeft="10dp"
+               android:background="@drawable/homepagemenuitems"
+               android:padding="15dp">
+
+               <ImageView
+                   android:layout_width="150dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/i6" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="210dp"
+                   android:layout_marginTop="20dp"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:text="Choco Milk"
+                   android:textColor="#000000" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="210dp"
+                   android:layout_marginTop="50dp"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:text=" @ Rs 100.00"
+                   android:textColor="#000000" />
+
+               <Button
+                   android:id="@+id/ice6"
+                   android:layout_width="100dp"
+                   android:layout_height="40dp"
+                   android:layout_marginLeft="200dp"
+                   android:layout_marginTop="80dp"
+                   android:background="@drawable/confirm_button"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:text="Buy now"
+                   android:textColor="#ffffff" />
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="340dp"
+               android:layout_height="150dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="1040dp"
+               android:background="@drawable/homepagemenuitems"
+               android:padding="15dp"
+               >
+               <ImageView
+                   android:layout_width="150dp"
+                   android:layout_height="130dp"
+                   android:background="@drawable/i7"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Butter Cream"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:textColor="#000000"
+                   android:layout_marginLeft="200dp"
+                   android:layout_marginTop="20dp"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text=" @ Rs 50.00"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:textColor="#000000"
+                   android:layout_marginTop="50dp"
+                   android:layout_marginLeft="210dp"
+                   />
+               <Button
+                   android:id="@+id/ice7"
+                   android:layout_width="100dp"
+                   android:layout_height="40dp"
+                   android:background="@drawable/confirm_button"
+                   android:text="Buy now"
+                   android:textColor="#ffffff"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:layout_marginLeft="200dp"
+                   android:layout_marginTop="80dp"
+                   />
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="340dp"
+               android:layout_height="150dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="1210dp"
+               android:background="@drawable/homepagemenuitems"
+               android:padding="15dp"
+               android:layout_marginBottom="50dp"
+               >
+               <ImageView
+                   android:layout_width="150dp"
+                   android:layout_height="130dp"
+                   android:background="@drawable/i8"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Choco Cream"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:textColor="#000000"
+                   android:layout_marginLeft="200dp"
+                   android:layout_marginTop="20dp"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text=" @ Rs 79.00"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:textColor="#000000"
+                   android:layout_marginTop="50dp"
+                   android:layout_marginLeft="210dp"
+                   />
+               <Button
+                   android:id="@+id/ice8"
+                   android:layout_width="100dp"
+                   android:layout_height="40dp"
+                   android:background="@drawable/confirm_button"
+                   android:text="Buy now"
+                   android:textColor="#ffffff"
+                   android:fontFamily="sans-serif-smallcaps"
+                   android:layout_marginLeft="200dp"
+                   android:layout_marginTop="80dp"
+                   />
+           </RelativeLayout>
+       </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

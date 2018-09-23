@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Dostea</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="cpassword">Confirm Password</string>
+    <string name="phone">Phone</string>
+    <string name="email">E-mail</string>
+    <string name="title_home">Home</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_about">About</string>
+    <string name="facebook_app_id">617935765256449</string>
+    <string name="fb_login_protocol_scheme">fb617935765256449</string>
+</resources>
